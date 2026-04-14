@@ -142,3 +142,32 @@ body {
     color:var(--azul-primario);
     margin-top: 0;
 }
+
+.btn-text {
+    color: var(--celeste-biobio);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: var(--footer-oscuro);
+    color: var(--blanco-puro);
+    padding: 50px 0 20px 0;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-botton {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 0.8rem;
+}
