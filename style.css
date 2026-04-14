@@ -25,3 +25,120 @@ body {
     position: sticky;
     top: 1000;
 }
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo span {
+    color: var(--celeste-biobio);
+    font-weight: 300;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--texto-oscuro);
+    font-weight: bold;
+    font-size: 0.85rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: var(--celeste-biobio);
+}
+
+.btn-app{
+    background-color: var(--azul-primario);
+    color:var(--blanco-puro) !important;
+    padding: 10px 22px;
+    border-radius: 25px;
+}
+.hero {
+    height: 75vh;
+    background-image: url('https://www.biobioestuyo.cl/wp-content/uploads/2021/05/banner-home.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-overlay {
+    background: rgba(0, 74, 153, 0.4);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.hero-content{
+    color: var(--blanco-puro);
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 3.2rem;
+    margin-bottom: 15px;
+    line-height: 1.1;
+}
+
+.cta-main {
+    background-color: var(--naranjo-cta);
+    color: var(--blanco-puro);
+    padding: 15px 35px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: inline-block;
+}
+.container {
+    max-width: 12000px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.section-title {
+    text-align: center;
+    color: var(--azul-primario);
+    font-size: 2.2rem;
+    margin-bottom: 45px;
+}
+
+.services-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    background: var(--blanco-puro);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.card-img {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-img {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-body {
+    padding: 25px;
+}
+
+.card-body h3{
+    color:var(--azul-primario);
+    margin-top: 0;
+}
